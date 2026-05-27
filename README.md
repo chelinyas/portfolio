@@ -1,32 +1,16 @@
-# Uby Yas Farfan Portfolio Mockup
+# Uby Yas Farfan Portfolio Mockup - Updated
 
-This is a static portfolio website mockup built with HTML, CSS and JavaScript.
+Positioning used:
 
-## File structure
+Power BI Developer & Reporting Specialist
 
-```text
-uby_portfolio_mockup
-├── index.html
-├── styles.css
-├── script.js
-└── assets
-    └── profile-placeholder.svg
-```
+This version focuses on:
+- Power BI dashboard development
+- Excel to Power BI reporting
+- Data modelling and DAX
+- SQL reporting datasets, not backend development
 
-## How to use
-
-1. Open this folder in VS Code.
-2. Open `index.html`.
-3. Use the Live Server extension to preview it.
-4. Replace the placeholder links:
-   - `mailto:your@email.com`
-   - LinkedIn URL
-   - Upwork URL
-   - Project links
-5. Replace `assets/profile-placeholder.svg` with your real professional photo later.
-
-## Recommended professional title
-
-Power BI & BI Reporting Consultant
-
-This avoids sounding like a backend SQL developer while still showing SQL as a reporting/data preparation strength.
+Important:
+- The email link is still a placeholder: mailto:your@email.com
+- Replace it with your preferred public contact email before publishing.
+- LinkedIn and Upwork links were added.
