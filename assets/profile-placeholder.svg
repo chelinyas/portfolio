@@ -1,0 +1,32 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#0B1520"/>
+  <circle cx="450" cy="385" r="185" fill="url(#skin)"/>
+  <path d="M235 922C271 735 345 640 450 640C555 640 629 735 665 922V1200H235V922Z" fill="url(#suit)"/>
+  <path d="M325 1200V845C325 776 381 720 450 720C519 720 575 776 575 845V1200H325Z" fill="#F5F7FB"/>
+  <path d="M230 920C258 758 331 668 450 668C569 668 642 758 670 920V1200H574V876C574 807 519 752 450 752C381 752 326 807 326 876V1200H230V920Z" fill="#081018"/>
+  <path d="M266 405C280 245 350 159 450 159C550 159 620 245 634 405C591 334 537 298 472 298C379 298 311 334 266 405Z" fill="#1E2937"/>
+  <circle cx="378" cy="385" r="18" fill="#071018"/>
+  <circle cx="522" cy="385" r="18" fill="#071018"/>
+  <path d="M382 482C426 520 474 520 518 482" stroke="#071018" stroke-width="20" stroke-linecap="round"/>
+  <rect x="74" y="78" width="752" height="1044" rx="48" stroke="url(#border)" stroke-width="2"/>
+  <circle cx="150" cy="160" r="5" fill="#72F2D8"/>
+  <circle cx="178" cy="160" r="5" fill="#7CA8FF"/>
+  <circle cx="206" cy="160" r="5" fill="#F6C76F"/>
+  <text x="450" y="1060" text-anchor="middle" fill="#72F2D8" font-family="Arial, sans-serif" font-size="56" font-weight="700">UY</text>
+  <text x="450" y="1115" text-anchor="middle" fill="#9AA8B8" font-family="Arial, sans-serif" font-size="28">Professional photo placeholder</text>
+  <defs>
+    <linearGradient id="skin" x1="330" y1="250" x2="580" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1C6A8"/>
+      <stop offset="1" stop-color="#C98D68"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="290" y1="700" x2="635" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142131"/>
+      <stop offset="1" stop-color="#050A11"/>
+    </linearGradient>
+    <linearGradient id="border" x1="74" y1="78" x2="826" y2="1122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72F2D8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#7CA8FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+</svg>
