@@ -1,16 +1,24 @@
-# Uby Yas Farfan Portfolio Mockup - Updated
+# Uby Yas Farfan Portfolio Mockup v3
 
-Positioning used:
+Changes in this version:
+- Reduced repeated use of "Power BI"
+- Header now shows only the name
+- Project section moved directly after About
+- Removed the "How I work" section to keep the portfolio shorter
+- Added email: chelinyas@gmail.com
+- Improved Excel positioning:
+  - Excel reporting improvement
+  - Existing Excel reports can stay in Excel
+  - Some workflows can later move into dashboards
+- Kept SQL positioned as reporting/data preparation, not backend development
 
-Power BI Developer & Reporting Specialist
+## Files
 
-This version focuses on:
-- Power BI dashboard development
-- Excel to Power BI reporting
-- Data modelling and DAX
-- SQL reporting datasets, not backend development
-
-Important:
-- The email link is still a placeholder: mailto:your@email.com
-- Replace it with your preferred public contact email before publishing.
-- LinkedIn and Upwork links were added.
+```text
+uby_portfolio_mockup_v3
+├── index.html
+├── styles.css
+├── script.js
+└── assets
+    └── AboutMe.png
+```
