@@ -885,3 +885,248 @@ a {
 .project-card:hover .preview-sales-image img {
   transform: scale(1.03);
 }
+
+
+/* Minimal DAX + SQL animated object - added only to hero */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.68fr);
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-content {
+  text-align: left;
+  margin: 0;
+  max-width: 760px;
+}
+
+.hero h1,
+.hero-copy {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero .hero-actions {
+  justify-content: flex-start;
+}
+
+.logic-badge-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.logic-badge {
+  width: 440px;
+  height: 370px;
+  max-width: 100%;
+  position: relative;
+  padding: 20px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background:
+    radial-gradient(circle at 22% 0%, rgba(114, 242, 216, 0.14), transparent 55%),
+    linear-gradient(145deg, rgba(255,255,255,0.11), rgba(255,255,255,0.045));
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+  overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+}
+
+.logic-badge::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(120deg, transparent, rgba(114,242,216,0.14), transparent);
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+  z-index: -1;
+}
+
+.logic-badge:hover {
+  transform: translateY(-5px);
+  border-color: rgba(114, 242, 216, 0.36);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.42), 0 0 40px rgba(114, 242, 216, 0.1);
+}
+
+.logic-badge:hover::before {
+  transform: translateX(120%);
+}
+
+.logic-badge-header {
+  min-height: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+  flex-shrink: 0;
+}
+
+.logic-badge-header strong {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.logic-badge-header span {
+  display: block;
+  color: rgba(154, 168, 184, 0.62);
+  font-size: 0.82rem;
+  margin-top: 3px;
+}
+
+.logic-badge-header em {
+  font-style: normal;
+  font-family: "JetBrains Mono", monospace;
+  color: #061018;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logic-code-window {
+  position: relative;
+  height: 190px;
+  min-height: 190px;
+  max-height: 190px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(5, 10, 17, 0.56);
+  border: 1px solid rgba(255,255,255,0.12);
+  overflow: hidden;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.logic-code-window::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.18);
+  box-shadow: 14px 0 rgba(255,255,255,0.12), 28px 0 rgba(255,255,255,0.08);
+}
+
+.logic-code-area {
+  display: block;
+  padding-top: 24px;
+  font-family: "JetBrains Mono", "Consolas", monospace;
+  font-size: clamp(0.78rem, 1.4vw, 0.9rem);
+  line-height: 1.75;
+  color: rgba(244, 247, 251, 0.26);
+  white-space: pre-wrap;
+  height: 150px;
+  max-height: 150px;
+  overflow: hidden;
+  opacity: 0.66;
+}
+
+.logic-code-area::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 1.05em;
+  background: rgba(114, 242, 216, 0.36);
+  margin-left: 4px;
+  vertical-align: -0.16em;
+  animation: cursorBlink 0.85s steps(1) infinite;
+}
+
+.logic-keyword {
+  color: rgba(114, 242, 216, 0.34);
+}
+
+.logic-function {
+  color: rgba(246, 199, 111, 0.34);
+}
+
+.logic-object {
+  color: rgba(124, 168, 255, 0.34);
+}
+
+.logic-badge-footer {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  flex-shrink: 0;
+}
+
+.logic-badge-footer span {
+  color: rgba(154, 168, 184, 0.42);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.68rem;
+  border: 1px solid rgba(255,255,255,0.07);
+  background: rgba(255,255,255,0.018);
+  border-radius: 999px;
+  padding: 6px 8px;
+}
+
+.logic-phase-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 16px;
+  flex-shrink: 0;
+}
+
+.logic-phase-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.1);
+  transition: width 0.25s ease, background 0.25s ease;
+}
+
+.logic-phase-dot.active {
+  width: 26px;
+  background: rgba(114, 242, 216, 0.58);
+}
+
+@keyframes cursorBlink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1040px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .logic-badge-wrap {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .logic-badge {
+    width: 100%;
+    height: 390px;
+  }
+
+  .logic-badge-header {
+    flex-direction: column;
+    min-height: 98px;
+  }
+
+  .logic-code-window {
+    height: 190px;
+    min-height: 190px;
+    max-height: 190px;
+  }
+}
